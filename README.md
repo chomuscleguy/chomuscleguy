@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chomuscleguy&langs_count=8)](https://github.com/chomuscleguy/github-readme-stats)
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=chomuscleguy&show_icons=true&theme=radical)
 
 <!--
 **chomuscleguy/chomuscleguy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
