@@ -37,12 +37,12 @@
 
 | | |
 |---|---|
-| 💰 Account value | **₩99,810** (≈$74) |
-| 🏦 Total deposited | ₩99,810 (≈$74) |
+| 💰 Account value | **₩99,850** (≈$74) |
+| 🏦 Total deposited | ₩99,850 (≈$74) |
 | 📈 Profit / loss | **+₩0** (≈$0) (+0.00% of deposits) |
 | ⚙️ Bot strategy return (deposits excluded) | +0.00% |
 | 📊 Just holding the S&P 500 ETF, same period | +0.00% |
-| 🆚 Same deposits, just holding the S&P 500 ETF | ₩99,810 (≈$74) |
+| 🆚 Same deposits, just holding the S&P 500 ETF | ₩99,850 (≈$74) |
 | 🧭 Market regime | 🟢 BULL — S&P 500 above its 200-day average → 100% S&P 500 ETF |
 
 ![Account value](challenge/value.png)
@@ -53,7 +53,7 @@
 
 | ETF | Shares | Price | Value | Weight |
 |---|---|---|---|---|
-| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 4 | ₩22,475 | ₩89,900 | 90.1% |
+| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 4 | ₩22,485 | ₩89,940 | 90.1% |
 | Cash | | | ₩9,910 | 9.9% |
 
 <details><summary>How it works</summary>
@@ -71,7 +71,7 @@
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-06 11:39 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-06 11:40 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -93,6 +93,6 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-06 11:39 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-06 11:40 KST.</sub>
 
 <!-- PAPER:END -->
