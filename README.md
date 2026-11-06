@@ -71,7 +71,7 @@
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-07 01:06 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-07 07:30 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -83,16 +83,16 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
-| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **+0.00%** | S&P 500 (SPY) +0.78% | -0.78% | 🟢 BULL |
+| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **+0.00%** | S&P 500 (SPY) +0.31% | -0.31% | 🟢 BULL |
 | **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **+0.00%** | KOSPI 200 (KODEX 200) +0.00% | +0.00% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
-- 🇺🇸 US stocks top holdings: AAPL 10%, AMZN 10%, TSLA 10%, META 10%, GOOGL 10%, AMD 10% · cash 2%
-- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 49%, 신한지주 5%, 현대모비스 5%, 삼성SDI 5%, 하나금융지주 5% · cash 14%
+- 🇺🇸 US stocks top holdings: TSLA 10%, AAPL 10%, AMD 10%, AMZN 10%, META 10%, GOOGL 10% · cash 2%
+- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 신한지주 5%, 하나금융지주 5%, 현대모비스 5%, 삼성SDI 5% · cash 14%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-07 01:06 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-07 07:30 KST.</sub>
 
 <!-- PAPER:END -->
