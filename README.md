@@ -31,9 +31,9 @@
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$73) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$73) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
@@ -71,7 +71,7 @@
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-07 07:30 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-08 07:30 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -93,6 +93,6 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-07 07:30 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-08 07:30 KST.</sub>
 
 <!-- PAPER:END -->
