@@ -31,9 +31,9 @@
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$75) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$75) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
@@ -44,6 +44,9 @@
 | 📊 Just holding the S&P 500 ETF, same period | +0.04% |
 | 🆚 Same deposits, just holding the S&P 500 ETF | ₩99,614 (≈$74) |
 | 🧭 Market regime | 🟢 BULL — S&P 500 above its 200-day average → 100% S&P 500 ETF |
+| 💱 USD/KRW used above | **1,340.38** (market close 2026-11-09, updated 2026-11-10 07:30 KST) |
+
+![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
 ![Account value](challenge/value.png)
 
@@ -71,7 +74,7 @@
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-10 02:36 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-10 07:30 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -83,16 +86,16 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
-| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **+4.10%** | S&P 500 (SPY) +2.68% | +1.42% | 🟢 BULL |
-| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **+0.02%** | KOSPI 200 (KODEX 200) -0.65% | +0.67% | 🔴 BEAR |
+| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **+4.15%** | S&P 500 (SPY) +2.69% | +1.46% | 🟢 BULL |
+| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-1.01%** | KOSPI 200 (KODEX 200) -0.65% | -0.36% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
-- 🇺🇸 US stocks top holdings: AMD 11%, TSLA 10%, AVGO 10%, META 10%, AMZN 10%, AAPL 10% · cash 2%
-- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 신한지주 5%, 하나금융지주 5%, 현대모비스 5%, 삼성SDI 5% · cash 14%
+- 🇺🇸 US stocks top holdings: AMD 11%, TSLA 10%, META 10%, AVGO 10%, AAPL 10%, AMZN 10%
+- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 신한지주 5%, 하나금융지주 5%, 현대모비스 5%, 셀트리온 5% · cash 15%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-10 02:36 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-10 07:30 KST.</sub>
 
 <!-- PAPER:END -->
