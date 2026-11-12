@@ -24,6 +24,24 @@
 
 ---
 
+### 🎮 Featured Game — Lucky Plate
+
+<a href="https://chomuscleguy.itch.io/lucky-plate"><img src="games/lucky-plate-cover.png" width="320" align="right"></a>
+
+**The license plate game, but your brother cheats.**
+Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 · WebGL
+
+- 5 trips from the Corner Mart to Busan, each teaching one new rule
+- Spot lucky plates, swipe to slap your brother, catch his lies with **LIAR!**
+- Focus slow-mo for oncoming cars, rear-view mirror reading, Holiday / Night replays
+- Built with a multi-session AI workflow (Claude Code) — PM / design / art / programmer roles
+
+▶️ **[Play in browser on itch.io](https://chomuscleguy.itch.io/lucky-plate)**
+
+<br clear="right">
+
+---
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=footer" width="100%"/>
 </p>
