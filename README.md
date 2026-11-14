@@ -62,7 +62,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 | 📊 Just holding the S&P 500 ETF, same period | +1.63% |
 | 🆚 Same deposits, just holding the S&P 500 ETF | ₩101,191 (≈$76) |
 | 🧭 Market regime | 🟢 BULL — S&P 500 above its 200-day average → 100% S&P 500 ETF |
-| 💱 USD/KRW used above | **1,335.11** (market close 2026-11-13, updated 2026-11-14 07:30 KST) |
+| 💱 USD/KRW used above | **1,333.78** (market close 2026-11-13, updated 2026-11-14 16:00 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -92,7 +92,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-14 07:30 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-14 16:00 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -114,6 +114,6 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-14 07:30 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-14 16:00 KST.</sub>
 
 <!-- PAPER:END -->
