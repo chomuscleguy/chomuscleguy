@@ -55,14 +55,14 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 | | |
 |---|---|
-| 💰 Account value | **₩100,170** (≈$75) |
-| 🏦 Total deposited | ₩99,570 (≈$75) |
-| 📈 Profit / loss | **+₩600** (≈$0) (+0.60% of deposits) |
-| ⚙️ Bot strategy return (deposits excluded) | +0.60% |
-| 📊 Just holding the S&P 500 ETF, same period | +0.67% |
-| 🆚 Same deposits, just holding the S&P 500 ETF | ₩100,236 (≈$75) |
+| 💰 Account value | **₩98,970** (≈$74) |
+| 🏦 Total deposited | ₩99,570 (≈$74) |
+| 📈 Profit / loss | **−₩600** (≈$0) (-0.60% of deposits) |
+| ⚙️ Bot strategy return (deposits excluded) | -0.60% |
+| 📊 Just holding the S&P 500 ETF, same period | -0.67% |
+| 🆚 Same deposits, just holding the S&P 500 ETF | ₩98,904 (≈$74) |
 | 🧭 Market regime | 🟢 BULL — S&P 500 above its 200-day average → 100% S&P 500 ETF |
-| 💱 USD/KRW used above | **1,335.64** (market close 2026-11-16, updated 2026-11-17 07:30 KST) |
+| 💱 USD/KRW used above | **1,337.68** (market close 2026-11-17, updated 2026-11-17 16:00 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -74,8 +74,8 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 | ETF | Shares | Price | Value | Weight |
 |---|---|---|---|---|
-| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 4 | ₩22,565 | ₩90,260 | 90.1% |
-| Cash | | | ₩9,910 | 9.9% |
+| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 4 | ₩22,265 | ₩89,060 | 90.0% |
+| Cash | | | ₩9,910 | 10.0% |
 
 <details><summary>How it works</summary>
 
@@ -92,7 +92,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-17 07:30 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-17 16:00 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -105,15 +105,15 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
 | **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **+2.36%** | S&P 500 (SPY) +0.95% | +1.41% | 🟢 BULL |
-| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **+0.28%** | KOSPI 200 (KODEX 200) +1.13% | -0.85% | 🔴 BEAR |
+| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-0.57%** | KOSPI 200 (KODEX 200) -1.55% | +0.98% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
 - 🇺🇸 US stocks top holdings: AMD 11%, AVGO 10%, TSLA 10%, AAPL 10%, META 10%, LLY 10% · cash 2%
-- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 49%, 하나금융지주 5%, 신한지주 5%, 현대모비스 5%, 셀트리온 5% · cash 14%
+- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 하나금융지주 5%, 신한지주 5%, 현대모비스 5%, 셀트리온 5% · cash 15%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-17 07:30 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-17 16:00 KST.</sub>
 
 <!-- PAPER:END -->
