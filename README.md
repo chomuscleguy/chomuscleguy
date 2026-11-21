@@ -49,20 +49,20 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$75) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$75) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
-| 💰 Account value | **₩95,690** (≈$71) |
-| 🏦 Total deposited | ₩99,570 (≈$74) |
+| 💰 Account value | **₩95,690** (≈$72) |
+| 🏦 Total deposited | ₩99,570 (≈$75) |
 | 📈 Profit / loss | **−₩3,880** (≈$3) (-3.90% of deposits) |
 | ⚙️ Bot strategy return (deposits excluded) | -3.90% |
 | 📊 Just holding the S&P 500 ETF, same period | -4.33% |
 | 🆚 Same deposits, just holding the S&P 500 ETF | ₩95,261 (≈$71) |
 | 🧭 Market regime | 🔴 BEAR — S&P 500 below its 200-day average → 50% S&P 500 ETF / 50% short-term rates |
-| 💱 USD/KRW used above | **1,346.13** (market close 2026-11-20, updated 2026-11-21 07:30 KST) |
+| 💱 USD/KRW used above | **1,334.79** (market close 2026-11-20, updated 2026-11-21 16:00 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -92,7 +92,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-21 07:30 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-21 16:00 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -114,6 +114,6 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-21 07:30 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-21 16:00 KST.</sub>
 
 <!-- PAPER:END -->
