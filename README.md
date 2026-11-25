@@ -49,9 +49,9 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$75) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$75) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
@@ -62,7 +62,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 | 📊 Just holding the S&P 500 ETF, same period | -3.77% |
 | 🆚 Same deposits, just holding the S&P 500 ETF | ₩95,816 (≈$71) |
 | 🧭 Market regime | KOSPI 200 🔴 below its 200-day average → new deposits go to bonds instead · S&P 500 🔴 below its 200-day average → new deposits go to bonds instead |
-| 💱 USD/KRW used above | **1,342.00** (market close 2026-11-25, updated 2026-11-25 16:00 KST) |
+| 💱 USD/KRW used above | **1,343.25** (market close 2026-11-25, updated 2026-11-26 07:30 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -82,7 +82,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 | Date | Side | ETF | Shares | Price |
 |---|---|---|---|---|
-| 2026-11-25 | BUY | 305080 (US 10-year Treasury futures ETF) | 1 | ₩11,900 |
+| 2026-11-25 | BUY | 305080 (US 10-year Treasury futures ETF) | 1 | ₩11,880 |
 | 2026-11-23 | SELL | 379800 (S&P 500 ETF) | 2 | ₩21,365 |
 
 <details><summary>How it works</summary>
@@ -102,7 +102,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-25 16:00 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-26 07:30 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -114,16 +114,16 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
-| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **-2.08%** | S&P 500 (SPY) -1.94% | -0.14% | 🟢 BULL |
+| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **-3.04%** | S&P 500 (SPY) -2.22% | -0.82% | 🔴 BEAR |
 | **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-1.71%** | KOSPI 200 (KODEX 200) -7.42% | +5.71% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
-- 🇺🇸 US stocks top holdings: TSLA 11%, AAPL 11%, LLY 10%, AVGO 10%, AMZN 10%, GOOGL 10% · cash 2%
+- 🇺🇸 US stocks top holdings: SGOV 49%, AVGO 5%, TSLA 5%, NVDA 5%, GOOGL 5%, MSFT 5%
 - 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 하나금융지주 5%, 신한지주 5%, 현대모비스 5%, 셀트리온 5% · cash 15%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-25 16:00 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-26 07:30 KST.</sub>
 
 <!-- PAPER:END -->
