@@ -49,20 +49,20 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$75) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$75) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
-| 💰 Account value | **₩96,340** (≈$72) |
+| 💰 Account value | **₩95,735** (≈$71) |
 | 🏦 Total deposited | ₩99,570 (≈$74) |
-| 📈 Profit / loss | **−₩3,230** (≈$2) (-3.24% of deposits) |
-| ⚙️ Bot strategy return (deposits excluded) | -3.18% |
-| 📊 Just holding the S&P 500 ETF, same period | -2.39% |
-| 🆚 Same deposits, just holding the S&P 500 ETF | ₩97,193 (≈$72) |
-| 🧭 Market regime | 🔴 BEAR — S&P 500 below its 200-day average → 50% S&P 500 ETF / 50% short-term rates |
-| 💱 USD/KRW used above | **1,344.18** (market close 2026-11-24, updated 2026-11-24 16:00 KST) |
+| 📈 Profit / loss | **−₩3,835** (≈$3) (-3.85% of deposits) |
+| ⚙️ Bot strategy return (deposits excluded) | -3.81% |
+| 📊 Just holding the S&P 500 ETF, same period | -3.77% |
+| 🆚 Same deposits, just holding the S&P 500 ETF | ₩95,816 (≈$71) |
+| 🧭 Market regime | KOSPI 200 🔴 below its 200-day average → new deposits go to bonds instead · S&P 500 🔴 below its 200-day average → new deposits go to bonds instead |
+| 💱 USD/KRW used above | **1,342.00** (market close 2026-11-25, updated 2026-11-25 16:00 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -74,22 +74,26 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 | ETF | Shares | Price | Value | Weight |
 |---|---|---|---|---|
-| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 2 | ₩21,880 | ₩43,760 | 45.4% |
-| Cash | | | ₩52,580 | 54.6% |
+| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 2 | ₩21,570 | ₩43,140 | 45.1% |
+| 305080 · TIGER 미국채10년선물 (US 10-year Treasury futures ETF) | 1 | ₩11,880 | ₩11,880 | 12.4% |
+| Cash | | | ₩40,715 | 42.5% |
 
 ### Recent trades
 
 | Date | Side | ETF | Shares | Price |
 |---|---|---|---|---|
+| 2026-11-25 | BUY | 305080 (US 10-year Treasury futures ETF) | 1 | ₩11,900 |
 | 2026-11-23 | SELL | 379800 (S&P 500 ETF) | 2 | ₩21,365 |
 
 <details><summary>How it works</summary>
 
-- **Rule:** if the S&P 500 (SPY) closes above its 200-day moving average, hold 100% in a Korea-listed S&P 500 ETF (379800 KODEX 미국S&P500). Below it, move half into a short-term interest-rate ETF (357870 TIGER CD금리투자KIS(합성)).
-- The account is in Korean won, so the S&P 500 ETF also reflects the USD/KRW exchange rate.
-- Only whole shares are bought, so a small account keeps some cash.
-- ₩100,000 is deposited every month and invested automatically the next trading day.
-- The comparison line shows what the same deposits would be worth if they had simply bought and held the S&P 500 ETF — i.e. whether the 200-day rule actually helps.
+- **Mix:** follows the 2027 target asset mix of Korea's National Pension Service (alternatives excluded, the rest scaled up) using four Korea-listed index ETFs: KOSPI 200 ETF (dividends reinvested) 24.3% (278530), S&P 500 ETF 41.6% (379800), Korea 3-year government bond ETF 25.5% (114260), US 10-year Treasury futures ETF 8.6% (305080).
+- **Deposits:** ₩100,000 is deposited every month and invested the next trading day into whichever ETFs are furthest below target — nothing is sold.
+- **Monthly rebalance:** once a month, right after that month's deposit arrives, the deposit fills the gaps first and only ETFs still more than 2 percentage points off target are sold back to target.
+- **200-day rule (soft):** if the KOSPI 200 or the S&P 500 is below its 200-day average, that stock ETF is not bought for now and its share of new deposits goes to the bond ETFs instead. Nothing is sold because of it.
+- The mix is updated once a year when the pension fund announces new targets.
+- The account is in Korean won, so the US ETFs also reflect the USD/KRW exchange rate. Only whole shares are bought, so a small account keeps some cash and drifts from target until deposits add up.
+- The comparison line shows what the same deposits would be worth if they had simply bought and held the S&P 500 ETF.
 - Full history: [trades](challenge/trades.csv) · [cash flows](challenge/cashflows.csv) · [daily values](challenge/daily.csv)
 
 </details>
@@ -98,7 +102,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-24 16:00 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-25 16:00 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -110,16 +114,16 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
-| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **-0.43%** | S&P 500 (SPY) -1.46% | +1.03% | 🔴 BEAR |
-| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-0.56%** | KOSPI 200 (KODEX 200) -0.44% | -0.13% | 🔴 BEAR |
+| **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **-2.08%** | S&P 500 (SPY) -1.94% | -0.14% | 🟢 BULL |
+| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-1.71%** | KOSPI 200 (KODEX 200) -7.42% | +5.71% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
-- 🇺🇸 US stocks top holdings: TSLA 11%, AAPL 10%, AVGO 10%, AMD 10%, AMZN 10%, GOOGL 10% · cash 2%
-- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 하나금융지주 5%, 현대모비스 5%, 신한지주 5%, 셀트리온 5% · cash 15%
+- 🇺🇸 US stocks top holdings: TSLA 11%, AAPL 11%, LLY 10%, AVGO 10%, AMZN 10%, GOOGL 10% · cash 2%
+- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 하나금융지주 5%, 신한지주 5%, 현대모비스 5%, 셀트리온 5% · cash 15%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-24 16:00 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-25 16:00 KST.</sub>
 
 <!-- PAPER:END -->
