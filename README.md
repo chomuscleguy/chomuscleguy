@@ -49,20 +49,20 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 <!-- CHALLENGE:START -->
 
-## 💵 ₩100,000 (≈$74) Auto-Trading Challenge
+## 💵 ₩100,000 (≈$75) Auto-Trading Challenge
 
-> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$74) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
+> Started with **₩100,000** on 2026-11-06 and adding **₩100,000 (≈$75) every month**. A Raspberry Pi bot trades a real Korean brokerage account on its own — every number below is real and updated daily. (USD values are approximate, converted at today's rate.)
 
 | | |
 |---|---|
-| 💰 Account value | **₩96,100** (≈$72) |
-| 🏦 Total deposited | ₩99,570 (≈$74) |
-| 📈 Profit / loss | **−₩3,470** (≈$3) (-3.48% of deposits) |
-| ⚙️ Bot strategy return (deposits excluded) | -3.44% |
-| 📊 Just holding the S&P 500 ETF, same period | -2.94% |
-| 🆚 Same deposits, just holding the S&P 500 ETF | ₩96,638 (≈$72) |
+| 💰 Account value | **₩96,370** (≈$72) |
+| 🏦 Total deposited | ₩99,570 (≈$75) |
+| 📈 Profit / loss | **−₩3,200** (≈$2) (-3.21% of deposits) |
+| ⚙️ Bot strategy return (deposits excluded) | -3.17% |
+| 📊 Just holding the S&P 500 ETF, same period | -1.90% |
+| 🆚 Same deposits, just holding the S&P 500 ETF | ₩97,682 (≈$73) |
 | 🧭 Market regime | KOSPI 200 🔴 below its 200-day average → new deposits go to bonds instead · S&P 500 🔴 below its 200-day average → new deposits go to bonds instead |
-| 💱 USD/KRW used above | **1,343.53** (market close 2026-11-26, updated 2026-11-27 07:30 KST) |
+| 💱 USD/KRW used above | **1,336.48** (market close 2026-11-27, updated 2026-11-27 16:00 KST) |
 
 ![USD/KRW live](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fopen.er-api.com%2Fv6%2Flatest%2FUSD&query=%24.rates.KRW&label=USD%2FKRW%20now&prefix=%E2%82%A9&color=0a7&cacheSeconds=3600)
 
@@ -74,9 +74,9 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 | ETF | Shares | Price | Value | Weight |
 |---|---|---|---|---|
-| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 2 | ₩21,755 | ₩43,510 | 45.3% |
-| 305080 · TIGER 미국채10년선물 (US 10-year Treasury futures ETF) | 1 | ₩11,875 | ₩11,875 | 12.4% |
-| Cash | | | ₩40,715 | 42.4% |
+| 379800 · KODEX 미국S&P500 (S&P 500 ETF) | 2 | ₩21,990 | ₩43,980 | 45.6% |
+| 305080 · TIGER 미국채10년선물 (US 10-year Treasury futures ETF) | 1 | ₩11,675 | ₩11,675 | 12.1% |
+| Cash | | | ₩40,715 | 42.2% |
 
 ### Recent trades
 
@@ -102,7 +102,7 @@ Official 2026 Unity Game Jam entry (theme: *Lucky Number*) · solo · Unity 6 ·
 
 If you enjoy following this, you can [sponsor me](https://github.com/sponsors/chomuscleguy). Donations are **support for the project only** — they are not invested in this account and carry no returns, shares or refunds.
 
-<sub>Not investment advice. Personal experiment. Last updated 2026-11-27 07:30 KST.</sub>
+<sub>Not investment advice. Personal experiment. Last updated 2026-11-27 16:00 KST.</sub>
 
 <!-- CHALLENGE:END -->
 
@@ -115,15 +115,15 @@ If you enjoy following this, you can [sponsor me](https://github.com/sponsors/ch
 | Strategy | Since | Bot return | Benchmark | vs benchmark | Regime |
 |---|---|---|---|---|---|
 | **🇺🇸 US stocks** — 10 high-conviction stocks from top investors' 13F filings | 2026-11-05 | **-3.04%** | S&P 500 (SPY) -2.22% | -0.82% | 🔴 BEAR |
-| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-2.02%** | KOSPI 200 (KODEX 200) -7.10% | +5.08% | 🔴 BEAR |
+| **🇰🇷 Korean stocks** — Top 10 holdings of Korea's National Pension Service (5%+ stakes) | 2026-11-06 | **-1.06%** | KOSPI 200 (KODEX 200) -2.91% | +1.85% | 🔴 BEAR |
 
 ![Paper-trading returns](paper/returns.png)
 
 - 🇺🇸 US stocks top holdings: SGOV 49%, AVGO 5%, TSLA 5%, NVDA 5%, GOOGL 5%, MSFT 5%
-- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 51%, 하나금융지주 5%, 신한지주 5%, 셀트리온 5%, 현대모비스 5% · cash 15%
+- 🇰🇷 Korean stocks top holdings: KODEX 단기채권 50%, 하나금융지주 5%, 신한지주 5%, 셀트리온 5%, 현대모비스 5% · cash 15%
 
 Full dashboard: [portfolio-dashboard](https://github.com/chomuscleguy/portfolio-dashboard)
 
-<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-27 07:30 KST.</sub>
+<sub>Simulated account, returns only (no amounts). Not investment advice. Updated 2026-11-27 16:00 KST.</sub>
 
 <!-- PAPER:END -->
